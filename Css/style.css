@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+}
+/* delete the arrows from the input element */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* delete the arrows from the input element */
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.container {
+	height: 180px;
+	width: 700px;
+	margin: 100px 0 0 164px;
+}
+
+.header {
+	width: 672px;
+	height: 79px;
+}
+
+.header h1 {
+	font-weight: normal;
+	font-size: 72px;
+	color: #373a3c;
+}
+
+.main-content {
+	display: flex;
+	width: 672px;
+	margin: 50px 478px 7px 5px;
+	align-items: center;
+}
+
+.main-content p {
+	font-size: 24px;
+	line-height: 24px;
+	display: flex;
+	align-items: flex-end;
+	color: #373a3c;
+	margin: 1px 14px 0 0;
+}
+
+.main-content input {
+	width: 86px;
+	height: 38px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	margin-right: 14px;
+}
+
+.main-content h3 {
+	margin: 1px 14px;
+	text-decoration: underline;
+	line-height: 24px;
+	color: #373a3c;
+}
+
+.btn {
+	background: #0275d8;
+	border: 1px solid #0275d8;
+	border-radius: 4px;
+	width: 39px;
+	height: 38px;
+}
+
+/* loading spinners */
+#loading {
+	display: none;
+}
+
+#loading2 {
+	display: none;
+	position: absolute;
+	top: 352px;
+	left: 360px;
+}
+
+.largeNum {
+	display: none;
+	align-items: center;
+	width: 203px;
+	height: 33px;
+	margin: 1px 0px 0px 82px;
+	padding: 5px 0 0px 17px;
+}
+
+#meaningOfLife {
+	color: #d9534f;
+}
+
+#check-box {
+	margin-left: 5px;
+}
+
+.result-history-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.results-header {
+	margin: 30px 0 25px;
+	font-size: 54px;
+	font-weight: 400;
+}
+
+.results-list-ul {
+	padding-left: 0rem;
+}
+
+.results-list-ul li {
+	border-bottom: 1px black solid;
+	padding-bottom: 8px;
+	width: max-content;
+	font-size: 20px;
+	display: inline-block;
+	margin-bottom: 16px;
+}

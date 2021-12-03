@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Bootstrap stylesheet -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<!-- Css stylesheet -->
+		<link rel="stylesheet" href="./Css/style.css" />
+		<title>Javascript Project 1</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1>Fibonacci Calculator</h1>
+			</div>
+			<div class="main-content">
+				<p>The Fibonnaci Of</p>
+				<input id="inputNum" type="number" placeholder="  #" />
+				<button id="myBtn" type="button" class="btn btn-primary">Is</button>
+				<h3 id="displayRes"></h3>
+				<div id="loading" class="spinner-border" role="status">
+					<span class="sr-only"></span>
+				</div>
+				<div id="meaningOfLife"></div>
+			</div>
+			<div id="largerNum" class="alert alert-danger largeNum" role="alert">
+				Can’t be larger than 50
+			</div>
+			<input id="check-box" type="checkbox" />
+			<label for="check-box">Save Calculation</label>
+			<div id="ResultHistory" class="result-history-container">
+				<h3 class="results-header">Results</h3>
+				<div id="loading2" class="spinner-border" role="status">
+					<span class="sr-only"></span>
+				</div>
+				<ul id="results-list" class="results-list-ul"></ul>
+			</div>
+		</div>
+		<!-- Bootstrap script -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+
+		<script src="./Js/index.js"></script>
+	</body>
+</html>
